@@ -9,12 +9,11 @@
         body {
             font-family: "Lato", sans-serif;
             margin: 0;
-            background: #f7f9fa;
+            background: #F7F9FA;
             color: #333;
             line-height: 1.6;
         }
 
-        /* Mobile-friendly container */
         .container {
             max-width: 900px;
             margin: auto;
@@ -22,7 +21,7 @@
         }
 
         header {
-            background: #2f6f8f;
+            background: #4CAF50;
             color: white;
             padding: 20px;
             text-align: center;
@@ -46,7 +45,7 @@
         }
 
         nav {
-            background: #1f4f63;
+            background: #2E7031;
             padding: 12px;
             text-align: center;
         }
@@ -64,7 +63,7 @@
 
         .section h2 {
             font-size: 28px;
-            color: #2f6f8f;
+            color: #2E7031;
             margin-bottom: 10px;
         }
 
@@ -86,14 +85,24 @@
             margin-bottom: 15px;
         }
 
-        /* CTA button */
+        .helping-photo {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .helping-photo img {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+
         .cta {
             text-align: center;
             margin: 50px 0;
         }
 
         .cta a {
-            background: #2f6f8f;
+            background: #4CAF50;
             color: white;
             padding: 15px 30px;
             font-size: 20px;
@@ -102,7 +111,7 @@
         }
 
         footer {
-            background: #1f4f63;
+            background: #2E7031;
             color: white;
             text-align: center;
             padding: 20px;
@@ -110,7 +119,6 @@
             font-size: 16px;
         }
 
-        /* Mobile adjustments */
         @media (max-width: 600px) {
             header h1 {
                 font-size: 28px;
@@ -133,7 +141,6 @@
 <body>
 
 <header>
-    <!-- Replace logo.png with your actual logo file name -->
     <img src="logo.png" alt="My Bill Help Logo">
     <h1>My Bill Help</h1>
     <p>Trusted bill‑pay and paperwork support for seniors and families</p>
@@ -141,6 +148,7 @@
 
 <nav>
     <a href="#services">Services</a>
+    <a href="#security">Security</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
 </nav>
@@ -157,6 +165,18 @@
             <li>Budget tracking and simple financial organization</li>
             <li>Help understanding statements and notices</li>
             <li>Support for adult children managing a parent’s bills</li>
+            <li>Provide tax‑season support</li>
+            <li>In‑home visits for hands‑on support</li>
+        </ul>
+    </div>
+
+    <div class="section" id="security">
+        <h2>Your Security Comes First</h2>
+        <ul>
+            <li>Insured & FBI Background Checked for your protection</li>
+            <li>Privacy and confidentiality always respected</li>
+            <li>You stay in control</li>
+            <li>No financial decision‑making or check‑signing</li>
         </ul>
     </div>
 
@@ -164,11 +184,15 @@
         <h2>About Me</h2>
 
         <div class="profile">
-            <!-- Replace me.jpg with your actual photo file name -->
             <img src="me.jpg" alt="Photo of Chris">
         </div>
 
-        <p>My name is Chris, and I bring years of experience as a CNA, bookkeeper, and senior‑support specialist. I understand the challenges older adults face with paperwork, technology, and staying organized. My goal is to provide calm, trustworthy assistance that helps families feel confident and secure.</p>
+        <p>I’m a former home health care worker with years of hands‑on experience supporting older adults. Today, I’m a bookkeeper and bill‑pay specialist who helps seniors and families stay organized, confident, and in control of their paperwork. I’m also AARP Tax‑Aide trained, with three years of experience assisting clients during tax season. I’m a happily married mom of a college student and a lifelong Marylander. Let’s Go Orioles! 
+I also serve at Manna as a site leader and at Journey's Crossing Church in Germantown.</p>
+
+        <div class="helping-photo">
+            <img src="DustiVet.jpg" alt="Dusti helping a senior">
+        </div>
     </div>
 
     <div class="cta">
@@ -185,7 +209,7 @@
 </div>
 
 <footer>
-    © 2026 My Bill Help — Organizational services only; not a financial advisor.
+    © 2026 My Bill Help, LLC — Not a financial advisor.
 </footer>
 
 </body>
